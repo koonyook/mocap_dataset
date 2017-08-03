@@ -31,10 +31,11 @@ This dataset is created as a part of a research project that aims to improve the
 - There are 4 folders at the top level
     - **measure/** contains anthropometric measurements from each subjects. These info are needed to calculate shoulder, elbow, and wrist joint centers from marker positions. All files are in text form. All values are in mm unit.
     - **beta/** contains 10-dimensional shape vector form each subjects. These values are the result of model personalization process described in the main paper. All files are in text form.
-<!---    - **lowResolutionSmplTemplate/** contains 2 fsmpl files for a male model and a female model. The *fsmpl* format is designed specificly for this task. For more details, please look at the code. (cannot publish becaused of the license -->
     - **mocapRecord/** contains 2 subfolders
         - **fullbody/** contains full-body records from 6 subjects. They are used in the personalization process to search for the shape vector (beta). The records contain depth frame from Kinect only.
         - **upperbody/** contains the actual dataset for evaluation with data from Kinect, IMUs, and Vicon.
+
+<!---    - **lowResolutionSmplTemplate/** contains 2 fsmpl files for a male model and a female model. The *fsmpl* format is designed specificly for this task. For more details, please look at the code. (cannot publish becaused of the license -->
 
 ## Structure of One Record
 In a record folder (such as publishedDataset/mocapRecord/upperbody/FA2/), there are 4 files and 5 subfolders.
