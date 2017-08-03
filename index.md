@@ -34,12 +34,15 @@ If you gain something from our data, please cite our publication (to be updated 
 
 ## Download
 You can download them [here](https://drive.google.com/drive/folders/0Bz8_iLTGY2o4b25FYWkwUU9BWjA). 
+
 **WARNING**: All the files are 27.3GB in size. Try not to downlod all of them at once. 
 
 ## Want to visualize the dataset quickly?
 You can download an executable program [here]() (Windows only).
+
 The source code are also available [on GitHub](). This code should allow you to understand our binary file structure to build your own file reader in the case you are not going to use C#.
 
 ## Contact Us
 My name is Prayook Jatesiktat. Feel free to contact me at prayook001@e.ntu.edu.sg
+
 I'm from Robotics Research Center, Nanyang Technological University.
