@@ -38,29 +38,29 @@ This dataset is created as a part of a research project that aims to improve the
 
 ## Structure of One Record
 In a record folder (such as publishedDataset/mocapRecord/upperbody/FA2/), there are 4 files and 5 subfolders.
-    - **kinectBaseQuaternion.bin** (binary) contains an orientation quaternion (4 floats in WXYZ sequence) that represent the orientation of the mounting base on the IMU in the Kinect reference frame. These values are from a calibration process.
-    - **setting.SettingProto** (binary) contains some configurations about IMUs and Kinect.
-    - **subject.name** (text) contains the name code of the subject.
-    - **result.SessionProto** (binary) contains results from our implementation of shape fitting process.
-    - **imu1/** contains information from IMU that is mounted on top of Kinect.
-        - **gyroBiasStarter.bin** (binary) contains 3 gyroscope bias values at the starting point.
-        - **magCalibrationParameters.bin** (binary) contains calibration parameters for magnetometer.
-        - **RawSample.RawSampleListProto** (binary) contains the timestamp and the raw value from accelerometer, gyroscope, magnetometer.
-    - **imu17/** contains information from IMU that is on the subject's right wrist. Forearm pointing direction is along IMU's Y axis.
-    - **imu9/** contains information from IMU that is on the subject's left wrist. Forearm pointing direction is along IMU's -Y axis.
-    - **kinect/** contains information from Kinect V2 sensor
-        - **timestamp.bin** (binary) contains an array of timestamp for each frame in ms unit (double)
-        - **depthBuffer.bin** (binary) contains depth images frame-by-frame. As one pixel takes 2 byte, each frame occupies 2x424x512 bytes.
-        - **bodyIndexBuffer.bin** (binary) contains body index at every depth pixel. As one pixel takes 1 byte, each frame occupies 424x512 bytes.
-        - **OfflineBodyframe.protobuf** (binary) contains the skeleton tracking results from Kinect SDK 2.0.
-        - **cameraIntrinsics.bin** (binary) contains the focal lengths, principal points, and radial distortion coefficients of the used Kinect.
-        - **depthToCameraSpaceTable.bin** (binary) contains the pre-calculated information that can be used to back-project any depth pixel into a 3D position in Kinect reference frame.
-    - **vicon/** contains information from Vicon system
-        -
-        -
-        -
-        -
-        -
+   - **kinectBaseQuaternion.bin** (binary) contains an orientation quaternion (4 floats in WXYZ sequence) that represent the orientation of the mounting base on the IMU in the Kinect reference frame. These values are from a calibration process.
+   - **setting.SettingProto** (binary) contains some configurations about IMUs and Kinect.
+   - **subject.name** (text) contains the name code of the subject.
+   - **result.SessionProto** (binary) contains results from our implementation of shape fitting process.
+   - **imu1/** contains information from IMU that is mounted on top of Kinect.
+       - **gyroBiasStarter.bin** (binary) contains 3 gyroscope bias values at the starting point.
+       - **magCalibrationParameters.bin** (binary) contains calibration parameters for magnetometer.
+       - **RawSample.RawSampleListProto** (binary) contains the timestamp and the raw value from accelerometer, gyroscope, magnetometer.
+   - **imu17/** contains information from IMU that is on the subject's right wrist. Forearm pointing direction is along IMU's Y axis.
+   - **imu9/** contains information from IMU that is on the subject's left wrist. Forearm pointing direction is along IMU's -Y axis.
+   - **kinect/** contains information from Kinect V2 sensor
+       - **timestamp.bin** (binary) contains an array of timestamp for each frame in ms unit (double)
+       - **depthBuffer.bin** (binary) contains depth images frame-by-frame. As one pixel takes 2 byte, each frame occupies 2x424x512 bytes.
+       - **bodyIndexBuffer.bin** (binary) contains body index at every depth pixel. As one pixel takes 1 byte, each frame occupies 424x512 bytes.
+       - **OfflineBodyframe.protobuf** (binary) contains the skeleton tracking results from Kinect SDK 2.0.
+       - **cameraIntrinsics.bin** (binary) contains the focal lengths, principal points, and radial distortion coefficients of the used Kinect.
+       - **depthToCameraSpaceTable.bin** (binary) contains the pre-calculated information that can be used to back-project any depth pixel into a 3D position in Kinect reference frame.
+   - **vicon/** contains information from Vicon system
+       -
+       -
+       -
+       -
+       -
     
 ## Citation
 If you gain something from our data, please cite our publication (to be updated soon).
