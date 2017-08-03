@@ -56,11 +56,11 @@ In a record folder (such as publishedDataset/mocapRecord/upperbody/FA2/), there 
        - **cameraIntrinsics.bin** (binary) contains the focal lengths, principal points, and radial distortion coefficients of the used Kinect.
        - **depthToCameraSpaceTable.bin** (binary) contains the pre-calculated information that can be used to back-project any depth pixel into a 3D position in Kinect reference frame.
    - **vicon/** contains information from Vicon system
-       -
-       -
-       -
-       -
-       -
+       - **viconRecord.TRC** (text) contains 3D position of 27 markers captured by Vicon system.
+       - **viconPanelFile.TRC** (text) contains 3D positions of 4 markers on the calibration panel in the Vicon reference frame.
+       - **kinectPanelFile.bin** (binary) contains 3D positions of 4 marekers on the calibration panel in the Kinect reference frame. With both *viconPanelFile.TRC* and *kinectPanelFile.bin*, the transormation between Kinect and Vicon reference frame can be calculated.
+       - **marker.measure** (text) contains the diameter and the base thickness of the marker in mm.
+       - **viconStartOffset.bin** (binary) contains a floting point number telling that at which frames in Kinect that the first vicon frame should start.
     
 ## Citation
 If you gain something from our data, please cite our publication (to be updated soon).
