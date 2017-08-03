@@ -62,7 +62,7 @@ In a record folder (such as publishedDataset/mocapRecord/upperbody/FA2/), there 
        - **marker.measure** (text) contains the diameter and the base thickness of the marker in mm.
        - **viconStartOffset.bin** (binary) contains a floting point number telling that at which frames in Kinect that the first vicon frame should start.
     
-## Citation
+## Cite Us
 If you gain something from our data, please cite our publication (to be updated soon).
 
 ## Download
