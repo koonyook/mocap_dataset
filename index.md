@@ -14,7 +14,7 @@ This dataset is created as a part of a research project that aims to improve the
     - Frame timestamp
 - Data from 3 nine-axis inertial measurement units (IMU)
     - Raw data from a 3-axis accelerometer, a 3-axis gyroscope, a 3-axis magnetometer
-    - 2 IMUs are on the subject's wrists, 1 IMU are mounted regidly on the Kinect. (see [our paper]() for more details)
+    - 2 IMUs are on the subject's wrists, 1 IMU are mounted regidly on the Kinect. (see [our paper](https://ieeexplore.ieee.org/document/8513068) for more details)
     - 80 fps
     - Sample timestamp (transformable to Kinect timestamp)
 - Data from a marker-based multi-camera system (Vicon)
