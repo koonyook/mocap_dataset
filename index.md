@@ -83,8 +83,10 @@ ISSN={1558-4615},
 month={July},}
 ```
 ## Download
-You can download them [here]([https://drive.google.com/drive/folders/0Bz8_iLTGY2o4b25FYWkwUU9BWjA](https://entuedu-my.sharepoint.com/:f:/g/personal/prayook001_e_ntu_edu_sg/EoHkIWk0bHxEls9OGmd4VhUBrAHBJNUMAAfcUYrCtI7z8A?e=6XWYAC)). 
+You can download them [here](https://entuedu-my.sharepoint.com/:f:/g/personal/prayook001_e_ntu_edu_sg/EoHkIWk0bHxEls9OGmd4VhUBrAHBJNUMAAfcUYrCtI7z8A?e=6XWYAC)
+
 password: thankyou
+
 **WARNING**: All the files are 27.3GB in size. Try not to downlod all of them at once. 
 
 ## Want to visualize the dataset quickly?
